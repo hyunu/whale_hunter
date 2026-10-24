@@ -15,7 +15,7 @@ async def lifespan(_app: FastAPI):
 
 
 app = FastAPI(
-    title="FlowHunter",
+    title="WhaleHunter",
     description="대규모 자금 활동 가능성 구간을 탐지하고 과거 성과를 검증하는 분석 API",
     version="0.1.0",
     lifespan=lifespan,

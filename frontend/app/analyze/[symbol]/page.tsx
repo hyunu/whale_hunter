@@ -253,7 +253,7 @@ function AnalyzeInner() {
     <main className="shell">
       <header className="topbar">
         <Link className="brand" href="/">
-          Flow<span>Hunter</span>
+          Whale<span>Hunter</span>
         </Link>
         <div className="tagline">
           {analysis?.algorithm_version ? `algorithm ${analysis.algorithm_version}` : "불러오는 중"} · {market} · 일봉

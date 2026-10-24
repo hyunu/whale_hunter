@@ -37,7 +37,7 @@ def health() -> dict:
     return {
         "status": "ok",
         "algorithm_version": ALGORITHM_VERSION,
-        "product": "FlowHunter",
+        "product": "WhaleHunter",
     }
 
 

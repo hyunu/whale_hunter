@@ -71,7 +71,7 @@ export default function GuidePage() {
     <main className="shell">
       <header className="topbar">
         <Link className="brand" href="/">
-          Flow<span>Hunter</span>
+          Whale<span>Hunter</span>
         </Link>
         <div className="tagline">
           <Link className="text-btn" href="/">
@@ -85,7 +85,7 @@ export default function GuidePage() {
 
       <h1 className="guide-title">이 화면, 이렇게 보면 됩니다</h1>
       <p className="lede">
-        FlowHunter는 누가 샀는지 찾아내지 않습니다. 거래량, 거래대금, 가격이 움직이는 모양을 보고
+        WhaleHunter는 누가 샀는지 찾아내지 않습니다. 거래량, 거래대금, 가격이 움직이는 모양을 보고
         <strong> 큰돈이 들어왔거나 빠져나갔을 가능성</strong>을 점수로 보여 줍니다. 아래는 화면에 나오는
         말과 숫자를 일상 언어로 풀어 둔 설명입니다. 카드 제목을 누르면 접거나 펼 수 있습니다.
       </p>

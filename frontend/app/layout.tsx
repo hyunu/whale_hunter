@@ -3,7 +3,7 @@ import { ibmPlexMono, notoSansKr } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FlowHunter",
+  title: "WhaleHunter",
   description: "대규모 자금 활동 가능성 구간을 탐지하고 과거 성과를 검증합니다.",
 };
 

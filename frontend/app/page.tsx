@@ -109,7 +109,7 @@ export default function HomePage() {
     <main className="shell">
       <header className="topbar">
         <div className="brand">
-          Flow<span>Hunter</span>
+          Whale<span>Hunter</span>
         </div>
         <div className="tagline">
           algorithm v0.1.0 · 일봉 MVP

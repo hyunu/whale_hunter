@@ -19,8 +19,8 @@ import PrintButton from "@/components/PrintButton";
 import "./manual.css";
 
 export const metadata = {
-  title: "FlowHunter 사용설명서",
-  description: "인쇄용 FlowHunter 사용설명서",
+  title: "WhaleHunter 사용설명서",
+  description: "인쇄용 WhaleHunter 사용설명서",
 };
 
 function Fig({ caption, children }: { caption: string; children: ReactNode }) {
@@ -47,7 +47,7 @@ export default function ManualPage() {
       <article className="manual-sheet">
         <header className="manual-cover">
           <h1>
-            Flow<span>Hunter</span> 사용설명서
+            Whale<span>Hunter</span> 사용설명서
           </h1>
           <p>중학생도 읽을 수 있게 쓴, 인쇄용 자세한 안내</p>
           <p>일봉으로 「큰돈이 움직인 것처럼 보이는 날」을 찾고, 그 뒤 과거 수익으로 검사합니다</p>
@@ -78,7 +78,7 @@ export default function ManualPage() {
 
         <h2>1. 한 장으로 이해하기</h2>
         <p>
-          FlowHunter는 주식(또는 ETF)의 <strong>하루 봉(일봉)</strong>만 봅니다. 시가·고가·저가·종가와
+          WhaleHunter는 주식(또는 ETF)의 <strong>하루 봉(일봉)</strong>만 봅니다. 시가·고가·저가·종가와
           거래량으로 「오늘은 평소와 얼마나 달랐나?」를 점수(0~100)로 만듭니다. 그 점수가 높았던 날 뒤에,
           과거 주가가 어떻게 움직였는지를 따로 모아 보여 줍니다.
         </p>
@@ -779,12 +779,12 @@ export default function ManualPage() {
           투자 권유가 아닙니다.
         </div>
         <p>
-          FlowHunter는 <strong>탐정 안경</strong>이지 <strong>미래 예언기</strong>가 아닙니다. 큰돈이 움직인
+          WhaleHunter는 <strong>탐정 안경</strong>이지 <strong>미래 예언기</strong>가 아닙니다. 큰돈이 움직인
           것처럼 보이는 날을 찾아 주고, 그 날들 뒤에 과거 주가가 어떻게 됐는지를 숙제 검사처럼 보여 줍니다.
           숙제를 잘 검사했다고 해서 다음 시험 만점을 보장하지는 않습니다.
         </p>
         <p className="manual-footer">
-          FlowHunter 사용설명서 · 알고리즘 v0.1.0 · 화면의 「설명」「해석」과 같은 내용을 그림과 함께 더 길게
+          WhaleHunter 사용설명서 · 알고리즘 v0.1.0 · 화면의 「설명」「해석」과 같은 내용을 그림과 함께 더 길게
           풀어 쓴 인쇄용입니다.
         </p>
       </article>
